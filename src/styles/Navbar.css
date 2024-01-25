@@ -13,7 +13,9 @@
 }
 
 .image {
-    margin-right: 0%;
+    width: 40px;
+    height: 40px;
+    margin-right: 0px;
 }
 
 .list {
@@ -24,4 +26,12 @@
 .list > li {
     margin-right: 30px;
     font-size: 20px;
+    margin-left: 0px;
+}
+
+li:hover {
+    cursor: pointer;
+    text-decoration: underline 	#83aff0;
+    text-underline-offset: 4px;
+    color: 	#83aff0;
 }

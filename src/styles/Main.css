@@ -1,0 +1,108 @@
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-evenly;
+    margin-top: 5vh;
+}
+
+.main--container {
+    display: flex;
+    flex-direction: row;
+    height: 40vh;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0px;
+    padding: 0px; */
+}
+
+.box {
+    width: 30vh;
+    height: 30vh;
+    /* margin: 0px 20px; */
+    /* padding: 0px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.box > img {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+.box > p {
+    padding: 10px;
+    margin-top: 20px;
+}
+
+
+div.box:hover {
+    background-color: #83aff0;
+    border-radius: 200px;
+    cursor: pointer;
+}
+
+div.box {
+    font-family: Bahnschrift;
+    font-weight: 800;
+    font-size: 2rem;
+    /* padding: 0px; */
+    margin: 0px 30px;
+    background-color: #3c649f;
+}
+
+.emptyBox {
+    font-family: Bahnschrift;
+    font-size: 1.5rem;
+    width: 30vh;
+    height: 30vh;
+    margin: 0px 30px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: #83aff0;
+    border-radius: 200px;
+}
+
+/* .emptyBox:hover {
+    background-color: #3c649f;
+    border-radius: 30px;
+
+} */
+
+/* .puzzle {
+    background-image: url(../images/puzzlepiece.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 100px 100px;
+}
+
+.riddle {
+    background-image: url(../images/lock.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.escaperoom {
+    background-image: url(../images/lock.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.cipher {
+    background-image: url(../images/lock.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+} */
