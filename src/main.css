@@ -1,0 +1,21 @@
+
+.main {
+    display: flex;
+    align-content: space-around;
+    justify-content: space-evenly;
+    min-height: 90vh;
+    flex-wrap: wrap;
+
+}
+
+.main > div {
+
+}
+
+.box {
+    
+}
+
+.box > div {
+ 
+}

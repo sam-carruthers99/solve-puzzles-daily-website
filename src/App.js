@@ -1,13 +1,13 @@
-import './App.css';
+import NavBar from "./Navbar.js"
+import Main from "./Main.js"
 
 function App() {
   return (
-    <div className="App">
-      <p>
-        "Solve Puzzles Daily"
-      </p>
+    <div>
+        <NavBar />
+        <Main />
     </div>
-  );
+  )
 }
 
 export default App;
