@@ -1,7 +1,11 @@
 import "./styles/Riddles.css"
+import Card from "./Card.js"
 
 export default function Riddles(){
     return (
-        <p>Classic riddles and brainteasers</p>
+        <div className="riddles--container">
+            <h3>Classic riddles and brainteasers</h3>
+            <Card />
+        </div>
     )
 }

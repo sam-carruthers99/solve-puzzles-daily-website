@@ -71,38 +71,3 @@ div.box {
     background-color: #83aff0;
     border-radius: 200px;
 }
-
-/* .emptyBox:hover {
-    background-color: #3c649f;
-    border-radius: 30px;
-
-} */
-
-/* .puzzle {
-    background-image: url(../images/puzzlepiece.png);
-    background-repeat: no-repeat;
-    background-position-x: center;
-    background-position-y: center;
-    background-size: 100px 100px;
-}
-
-.riddle {
-    background-image: url(../images/lock.png);
-    background-repeat: no-repeat;
-    background-position-x: center;
-    background-position-y: center;
-}
-
-.escaperoom {
-    background-image: url(../images/lock.png);
-    background-repeat: no-repeat;
-    background-position-x: center;
-    background-position-y: center;
-}
-
-.cipher {
-    background-image: url(../images/lock.png);
-    background-repeat: no-repeat;
-    background-position-x: center;
-    background-position-y: center;
-} */

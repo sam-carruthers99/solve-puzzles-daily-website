@@ -1,0 +1,49 @@
+
+.card--container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 30%;
+    width: 50%;
+    margin: 20px;
+    padding: 30px;
+    background-color: #83aff0;
+    font-family: inter;
+}
+
+.card--button {
+    width: 15%;
+    height: 40%;
+    padding: 10px;
+    margin: 0px;
+    align-self: center;
+    font-family: inter;
+    font-size: 1rem;
+    border: none;
+    background-color: whitesmoke;
+}
+
+.card--button:hover {
+    cursor: pointer;
+}
+
+.card--title {
+    font-size: 1.5rem;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.card--riddle {
+    font-size: 1rem;
+    padding: 0px;
+    margin: 0px;
+}
+
+.card--answer {
+    font-size: 1rem;
+    padding: 0px;
+    margin: 0px;
+    align-self: flex-start;
+    font-weight: 800;
+}
