@@ -14,8 +14,8 @@ export default function Main(props) {
     const cipherDescription = React.useRef(null);
 
     return (
-        <main class="main">
-                <div class="main--container">
+        <main className="main">
+                <div className="main--container">
                     <div className="box puzzle" ref={puzzleRef} onClick={() => props.handleClick("puzzles")}>
                         <p>Puzzles</p>
                         <img src={require("./images/puzzlepiece.png")} alt="puzzle piece icon"/>
@@ -27,7 +27,7 @@ export default function Main(props) {
                     </div>
                     <div className="emptyBox" ref={cipherDescription}>A dive into historical ciphers and how to break them</div>
                 </div>
-                <div class="main--container">
+                <div className="main--container">
                     <div className="emptyBox" ref={puzzleDescription}>Original puzzles and puzzle games</div>
                     <div className="box riddle" ref={riddleRef} onClick={() => props.handleClick("riddles")}>
                         <p>Riddles</p>
@@ -39,19 +39,19 @@ export default function Main(props) {
                         <img src={require("./images/cipher.png")} alt="puzzle piece icon"/>
                     </div>
                 </div>
-                <Xarrow className="arrow"
+                <Xarrow className="arrow" headColor="#d3e4f4" lineColor="#d3dde9"
                     start={riddleDescription} 
                     end={riddleRef} 
                 />
-                <Xarrow className="arrow"
+                <Xarrow className="arrow" headColor="#d3e4f4" lineColor="#d3dde9"
                     start={puzzleDescription} 
                     end={puzzleRef} 
                 />
-                <Xarrow className="arrow"
+                <Xarrow className="arrow" headColor="#d3e4f4" lineColor="#d3dde9"
                     start={escapeRoomDescription} 
                     end={escapeRoomRef} 
                 />
-                <Xarrow className="arrow"
+                <Xarrow className="arrow" headColor="#d3e4f4" lineColor="#d3dde9"
                     start={cipherDescription} 
                     end={cipherRef} 
                 />

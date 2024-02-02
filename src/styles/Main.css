@@ -44,7 +44,7 @@
 
 
 div.box:hover {
-    background-color: #83aff0;
+    /* background-color: #83aff0; */
     border-radius: 200px;
     cursor: pointer;
 }
@@ -55,7 +55,8 @@ div.box {
     font-size: 2rem;
     /* padding: 0px; */
     margin: 0px 30px;
-    background-color: #3c649f;
+    /* background-color: #3c649f; */
+    background-color: #d3e4f4;
 }
 
 .emptyBox {
@@ -68,6 +69,9 @@ div.box {
     display: flex;
     align-items: center;
     text-align: center;
-    background-color: #83aff0;
+    /* background-color: #83aff0; */
+    background-color: #d3dde9;
     border-radius: 200px;
 }
+
+

@@ -7,8 +7,10 @@
     width: 50%;
     margin: 20px;
     padding: 30px;
-    background-color: #83aff0;
+    /* background-color: #83aff0; */
+    background-color: whitesmoke;
     font-family: inter;
+    /* border: 0.1rem solid black; */
 }
 
 .card--button {

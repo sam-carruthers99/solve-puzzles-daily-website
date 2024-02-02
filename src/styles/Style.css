@@ -1,12 +1,12 @@
 
 body {
-    background-color: #4779c4;
-    /* background-color: #f5ffff; */
+    /* background-color: #4779c4; */
+    background-color: #fbf9fa;
     margin: 0px;
     padding: 0px;
     display: flex;
     flex-direction: column;
-    align-items: stretch;
+    align-items: stretch; 
 }
 
 * {

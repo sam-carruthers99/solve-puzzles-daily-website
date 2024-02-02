@@ -44,7 +44,7 @@ function App() {
     
     
   return (
-    <div class="appBody">
+    <div className="appBody">
         <NavBar handleClick={handleClick}/>
         {currentTab}
     </div>
